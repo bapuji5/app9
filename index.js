@@ -6,7 +6,7 @@ app.use(express.static("public"));
 let t;
 let h;
 let p;
-let url="https://api.openweathermap.org/data/2.5/weather?q=visakhapatnam&appid=8f9d8dd3576ec3bf5359e25b2388c892"
+let url="https://api.openweathermap.org/data/2.5/weather?q=visakhapatnam&appid=8f9d8dd3576ec3bf5359e25b2388c891"
 
 request(url, function (error, response, body) {
   //console.error('error:', error); // Print the error if one occurred
